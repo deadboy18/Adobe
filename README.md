@@ -14,4 +14,10 @@
   New-NetFirewallRule -DisplayName "Block Acrobat DC" -Direction Outbound -Program "%ProgramFiles%\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -Action Block
   New-NetFirewallRule -DisplayName "Block Acrobat DC" -Direction Inbound -Program "%ProgramFiles%\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -Action Block
 ```
- That will just block adobe in defender firewall
+
+```
+New-NetFirewallRule -DisplayName "Block AcroCEF" -Direction Outbound -Program "C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroCEF\AcroCEF.exe" -Action Block
+New-NetFirewallRule -DisplayName "Block AcroCEF" -Direction Inbound -Program "C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroCEF\AcroCEF.exe" -Action Block
+```
+
+ That will just block adobe in defender firewall or you can manually block Acrobat.exe and AcroCEF.exe files in Windows Firewall
