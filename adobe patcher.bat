@@ -143,13 +143,13 @@ findstr /C:"0.0.0.0 r3zj0yju1q.adobe.io" "%windir%\System32\drivers\etc\hosts" >
 findstr /C:"0.0.0.0 cd536oo20y.adobe.io" "%windir%\System32\drivers\etc\hosts" >nul || (
     echo 0.0.0.0 cd536oo20y.adobe.io >> "%windir%\System32\drivers\etc\hosts"
 )
-findstr /C:"0.0.0.0 3ca52znvmj.adobe.io" "%windir%\System32\drivers\etc\hosts" >nul || (
+findstr /C:"0.0.0.0 5zgzzv92gn.adobe.io" "%windir%\System32\drivers\etc\hosts" >nul || (
     echo 0.0.0.0 5zgzzv92gn.adobe.io >> "%windir%\System32\drivers\etc\hosts"
 )
 findstr /C:"0.0.0.0 3ca52znvmj.adobe.io" "%windir%\System32\drivers\etc\hosts" >nul || (
     echo 0.0.0.0 3ca52znvmj.adobe.io >> "%windir%\System32\drivers\etc\hosts"
 )
-findstr /C:"0.0.0.0 3ca52znvmj.adobe.io" "%windir%\System32\drivers\etc\hosts" >nul || (
+findstr /C:"0.0.0.0 r5hacgq5w6.adobe.io" "%windir%\System32\drivers\etc\hosts" >nul || (
     echo 0.0.0.0 r5hacgq5w6.adobe.io >> "%windir%\System32\drivers\etc\hosts"
 )
 
