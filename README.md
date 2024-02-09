@@ -11,3 +11,4 @@
    the host to block.
 
 
+>Stop-Process -Name "Adobe Desktop Service" -force
